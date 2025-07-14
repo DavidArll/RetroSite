@@ -1,0 +1,25 @@
+{
+  "name": "my-retro-site",
+  "version": "1.0.0",
+  "private": true,
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "serve -s out"
+},
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "serve": "^14.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.22",
+    "sass": "^1.63.0",
+    "tailwindcss": "^3.3.3"
+  }
+}

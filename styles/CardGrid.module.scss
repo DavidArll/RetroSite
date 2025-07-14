@@ -1,0 +1,8 @@
+@import './helpers';
+
+.card {
+  @include card-hover;
+  background: $bg-color;
+  padding: 1rem;
+  border-radius: 8px;
+}

@@ -1,0 +1,11 @@
+.header {
+  @apply bg-bg text-white;
+  background: rgba(26, 26, 26, 0.8);
+  backdrop-filter: blur(10px);
+  &.scrolled {
+    background: rgba(26, 26, 26, 1);
+  }
+  nav a {
+    @apply transition-colors duration-200;
+  }
+}
